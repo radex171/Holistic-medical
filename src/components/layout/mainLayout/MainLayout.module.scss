@@ -1,0 +1,14 @@
+@import '../../../styles/global.module.scss';
+
+.component {
+    width: 80%;
+    max-width: 1300px;
+    min-height: 95vh;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+    background: $turquoise;
+    background: linear-gradient(0deg, $white 29%, $light-blue 70%);
+    border-radius: 40px;
+    box-shadow: 10px 10px 30px 2px ;
+}

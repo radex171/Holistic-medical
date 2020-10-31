@@ -1,0 +1,59 @@
+@import '../../../styles/global.module.scss';
+
+.component {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    .logos {
+        display: inline;
+        max-width: 400px;
+
+        .logo1 {
+            margin: 20px 0 0 15px;
+            max-width: 300px;
+        }
+
+        .logo2 {
+        float: right;  
+        margin:-35px 35px 0 0;
+        }
+        &::after{
+            clear: both;
+        }
+    }
+
+    .nav {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        align-content: stretch;
+        background: $light-green;
+        border-radius: 30px;
+        
+        .link {
+           text-decoration: none;
+           font-size: 18px;
+           font-weight: bolder;
+           margin: 4px 0;
+           padding: 5px 10px;
+            color: $black;
+            transition-property: background-color;
+            transition-duration: 0.6s;
+            border-radius: 30px;
+          
+           &:hover {
+            transition-property: background-color;
+            transition-duration: 0.6s;
+            background: $hover-green;
+            border-radius: 30px;
+            
+        }
+        }
+        
+    }
+}
