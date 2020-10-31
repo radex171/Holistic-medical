@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './MainLayout.module.scss';
 import Header from '../header/Header';
 import PropTypes from 'prop-types';
+import Footer from '../footer/Footer';
+
 class MainLayout extends React.Component {
 
     
@@ -14,7 +16,7 @@ class MainLayout extends React.Component {
             <div className={styles.component}>
                 <Header />
                 {children}
-
+                <Footer/>
             </div>
         )
     }

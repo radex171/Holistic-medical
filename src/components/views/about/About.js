@@ -8,8 +8,7 @@ class About extends React.Component {
         return(
             <main >
                 <article>
-                    <h1>Holistic Medical Academy</h1>
-                    tel. (+48) 603 101 601<br/>email: <a href="mailto">zywakroplakrwi@wp.pl</a><br/><br></br>
+                    
                     <img alt='wlascicielka firmy' className={styles.foto1} src={process.env.PUBLIC_URL +'/images/ela.jpg'}/><br/><br/>
                 
                     <p className={styles.text}>Elżbieta Gołaszewska - osoba prowadząca niegdyś firmę znaną jako "Wigor Świat Zdrowia",<br/>

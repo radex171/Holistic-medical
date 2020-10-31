@@ -1,0 +1,31 @@
+@import '../../../styles/global.module.scss';
+
+main {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    margin-bottom: 80px;
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        .foto1 {
+            width: 30%;
+            border-radius: 30px;
+        }
+    }
+}

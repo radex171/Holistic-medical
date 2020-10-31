@@ -1,0 +1,16 @@
+@import '../../../styles/global.module.scss';
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    text-align: center;
+    border-top: 6px $dark-red solid;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 700;
+
+    .info {
+        font-size: 10px;
+    }
+}

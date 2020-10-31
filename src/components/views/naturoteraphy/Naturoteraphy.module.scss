@@ -1,0 +1,43 @@
+@import '../../../styles//global.module.scss';
+
+main {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+
+    .video {
+        width: auto;
+         display: block;
+         margin: 0 auto;
+    }
+
+    article {
+        font-weight: 500;
+
+        h3 {
+            color: $dark-red;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        h4 {
+            color: $dark-red;
+        }
+
+        blockquote {
+            font-size: 16px;
+            line-height: 10px;
+            text-align: end;
+            font-weight: bolder;  
+        }
+
+        ul {
+            list-style: none;
+            text-align: left;
+        }
+       
+        .centerList {
+            text-align: center;
+        }
+    }
+}

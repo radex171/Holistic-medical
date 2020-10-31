@@ -14,14 +14,17 @@ class Header extends React.Component {
                 </div><br></br>
                 <nav className={styles.nav}>
                     <NavLink className={styles.link} exact to='/'>O Nas</NavLink>
-                    <NavLink className={styles.link} exact to='/naturoterapie'>naturoterapie</NavLink>
-                    <NavLink exact className={styles.link} to='/Szkolenia Kropli Krwi'>Szkolenia Kropli Krwi</NavLink>
-                    <NavLink exact className={styles.link} to='/szkolenia - naturoterapia'>szkolenia - naturoterapia</NavLink>
-                    <NavLink exact className={styles.link} to='/NSP'>NSP</NavLink>
-                    <NavLink exact className={styles.link} to='/Badania'>Badania</NavLink>
-                    <NavLink exact className={styles.link} to='/Youtube'>Youtube</NavLink>
-                    <NavLink exact className={styles.link} to='/Kontakt'>Kontakt</NavLink>
+                    <NavLink className={styles.link} exact to='/naturoterapie'>Naturoterapie</NavLink>
+                    <NavLink exact className={styles.link} to='/szkolenia-Kropli-Krwi'>Szkolenia Kropli Krwi</NavLink>
+                    <NavLink exact className={styles.link} to='/szkolenia-naturoterapia'>Szkolenia - naturoterapia</NavLink>
+                    <NavLink exact className={styles.link} to='/nsp'>NSP</NavLink>
+                    <NavLink exact className={styles.link} to='/badania'>Badania</NavLink>
+                    <NavLink exact className={styles.link} to='/youtube'>Youtube</NavLink>
+                    <NavLink exact className={styles.link} to='/kontakt'>Kontakt</NavLink>
                 </nav>
+
+                <h1>Holistic Medical Academy</h1>
+                    <span>tel. (+48) 603 101 601<br/>email: <a href="mailto">zywakroplakrwi@wp.pl</a></span><br/><br></br>
             </header>
         )
     }

@@ -1,0 +1,40 @@
+@import '../../../styles//global.module.scss';
+
+main {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        .foto1 {
+            width: 30%;
+            border-radius: 30px;;
+        }
+    }
+
+    
+
+    ul {
+        list-style: none;
+        h3,h4 {
+            color: $dark-red;
+        }
+    }
+}

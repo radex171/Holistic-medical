@@ -51,9 +51,21 @@
             transition-duration: 0.6s;
             background: $hover-green;
             border-radius: 30px;
-            
+            }
         }
-        }
-        
+    }
+
+    h1 {
+        margin-top: 36px;
+        color: $dark-red;
+        text-align: center;
+        font-size: 28px;
+    }
+    span {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
     }
 }
