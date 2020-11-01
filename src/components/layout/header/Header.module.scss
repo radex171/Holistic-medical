@@ -69,3 +69,12 @@
         font-weight: 700;
     }
 }
+
+@media(max-width: 700px){
+    .component{
+        .logo1, .logo2 {
+            display: none;
+            margin-bottom: 100px;
+        }
+}   
+}

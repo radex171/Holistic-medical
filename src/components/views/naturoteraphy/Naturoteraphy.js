@@ -22,10 +22,8 @@ class Naturoteraphy extends React.Component {
                     sposobem przyjmowania lub nieprawidłowym łączeniem z innymi lekami można sobie zaszkodzić,<br/>
                     dlatego niezwykle istotnym jest właściwe przeszkolenie w tym zakresie.<br/>
                     Zdobycie rzetelnej wiedzy zależy od wykładowców z odpowiednim wykształceniem<br/> i wieloletnim doświadczeniem.<br/><br/>
-                    <blockquote><p>"Wszystkie góry, lasy, łąki są aptekami" </p>(Paracelsus)</blockquote><br/>
+                    <blockquote>"Wszystkie góry, lasy, łąki są aptekami"<br/> (Paracelsus)</blockquote><br/>
                     
-                   
-
                     <h3> TURNUSY ZDROWOTNE - 10 DNIOWE</h3>
 					pod nadzorem lekarza<br/> 
                  dr Justyny Jakimiuk<br/>

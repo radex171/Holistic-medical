@@ -1,0 +1,29 @@
+@import '../../../styles/global.module.scss';
+
+main {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    margin-bottom: 80px;
+    font-size: 20px;
+
+    .video {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    span {
+        float: right;
+    }
+    &::after {
+        clear: both;
+    }
+
+    img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+}

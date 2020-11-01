@@ -114,8 +114,6 @@ class BloodStaining extends React.Component {
                 <li>- Zaliczenie egzaminu wstępnego (materiały i pytania egzaminacyjne kursant otrzyma  wcześniej)</li>
                 </ul><br/>
 
-
-
                 <ul><b>Po ukończonym kursie i złożeniu poprawnie egzaminu uczestnik otrzymuje:</b><br/><br/>
                 <li>1.<span className={styles.darkRed} ><b>Certyfikat</b> </span>ukończenia kursu dla zaawansowanych Badania Krwi Obwodowej Rozmaz z Barwieniem III stopnia o nr klasyfikacji 32 z  kwalifikacją zawodu o nr 321201 technik analityki medycznej</li><br/>
                 <li>2.<span className={styles.darkRed}><b>Zaświadczenie</b> </span> ukończenia kursu na wzorze druku MP i PS (Ministerstwa Pracy i Polityki Społecznej)</li><br/>
@@ -123,7 +121,6 @@ class BloodStaining extends React.Component {
                 Dokumenty zostaną wydane przez Instytucję Szkoleniową Holistic Medical Academy<br/><br/>
                 <b> Uwaga! Kurs z mikroskopii badania krwi obwodowej jest kursem zawodowym, spełniającym wymagania ujęte w Krajowym Standardzie Kwalifikacji Zawodowych MP i PS oraz Wojewódzkiego Urzędu Pracy. 
                 Nasza kadra ma odpowiednie przygotowanie zawodowe</b><br/><br/>
-
 
                 Szczegółowych informacji udzielamy:<br/>
                 pod nr tel. +48 603-101-601<br/>

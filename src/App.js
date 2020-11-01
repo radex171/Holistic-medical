@@ -8,7 +8,11 @@ import BloodDropCourses from './components/views/bloodDropCourses/BloodDropCours
 import LightField from './components/views/lightField/LightField';
 import DarkField from './components/views/darkField/DarkField';
 import BloodStaining from './components/views/bloodStaining/BloodStaining';
-
+import DryBlood from './components/views/dryBlood/DryBlood';
+import NaturoteraphyCourse from './components/views/naturoteraphyCourse/NaturoteraphyCourse';
+import Nsp from './components/views/nsp/Nsp';
+import Analysis from './components/views/analysis/Analysis';
+import Contact from './components/views/contact/Contact';
 class App extends React.Component {
 
   render(){
@@ -24,6 +28,11 @@ class App extends React.Component {
               <Route path='/jasne-pole' exact component={LightField}/>
               <Route path='/ciemne-pole' exact component={DarkField}/>
               <Route path='/rozmaz-z-barwieniem' exact component={BloodStaining}/>
+              <Route path='/sucha-krew' exact component={DryBlood}/>
+              <Route path='/naturoterapia-szkolenia' exact component={NaturoteraphyCourse}/>
+              <Route path='/nsp' exact component={Nsp}/>
+              <Route path='/badania' exact component={Analysis}/>
+              <Route path='/kontakt' exact component={Contact}/>
             </MainLayout>
           </Switch>
         </BrowserRouter>

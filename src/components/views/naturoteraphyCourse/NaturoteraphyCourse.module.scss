@@ -1,0 +1,32 @@
+@import '../../../styles/global.module.scss';
+
+main {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    margin-bottom: 80px;
+
+    .logo {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    .gallery {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        img {
+            width: 30%;
+            border-radius: 30px;
+        }
+    }
+
+    .rightText {
+        float: right;
+    }
+}
