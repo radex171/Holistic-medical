@@ -63,7 +63,7 @@ class NaturoteraphyCourse extends React.Component {
                 *Wybór firm suplementacyjnych o najwyższych standardach jakościowych.<br/><br/>
 
                 <b><h3>Uwaga:</h3> 
-                Od uczestnika kursu wymagana jest podstawowa wiedza z              anatomii człowieka.</b><br/><br/><br/>
+                Od uczestnika kursu wymagana jest podstawowa wiedza z anatomii człowieka.</b><br/><br/><br/>
                
                 <img className={Styles.logo} src="images/program-naturopatia.jpg" alt='informacja'/><br/><br/><br/>
                
